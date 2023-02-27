@@ -13,3 +13,8 @@ int main(){
     output=i+j;
     cout<<output;//getting the output required
 }
+//LOGIC:
+//we take the number of rows and columns 
+//if number of rows is not equal to zero than we subtract 1 and store it in i
+//if number of columns is not equal to zero than we subtract 1 and store it in j
+//our required output is i+j
