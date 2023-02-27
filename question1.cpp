@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i,j,n,m;
+    int i,j,n,m;//intialising variables
     long output;
-    cin>>n>>m;
+    cin>>n>>m;//givivg variables declared as input
     if (n!=0){
         i=n-1;
     }
@@ -11,5 +11,5 @@ int main(){
         j=m-1;
     }
     output=i+j;
-    cout<<output;
+    cout<<output;//getting the output required
 }
